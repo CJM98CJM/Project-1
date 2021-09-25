@@ -4,7 +4,7 @@
     padding: 20px 10px;
   }
   
-  /* Style the header links */
+ 
   .header a {
     float: left;
     color: black;
@@ -16,30 +16,30 @@
     border-radius: 4px;
   }
   
-  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  
   .header a.logo {
     font-size: 25px;
     font-weight: bold;
   }
   
-  /* Change the background color on mouse-over */
+ 
   .header a:hover {
     background-color: #ddd;
     color: black;
   }
   
-  /* Style the active/current link*/
+ 
   .header a.active {
     background-color: dodgerblue;
     color: white;
   }
   
-  /* Float the link section to the right */
+
   .header-right {
     float: right;
   }
   
-  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
+   
   @media screen and (max-width: 500px) {
     .header a {
       float: none;
@@ -54,14 +54,14 @@
     box-sizing: border-box;
   }
   
-  /* Create three columns of equal width */
+ 
   .columns {
     float: left;
     width: 33.3%;
     padding: 8px;
   }
   
-  /* Style the list */
+ 
   .price {
     list-style-type: none;
     border: 1px solid #eee;
@@ -71,19 +71,19 @@
     transition: 0.3s;
   }
   
-  /* Add shadows on hover */
+  
   .price:hover {
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
   }
   
-  /* Pricing header */
+
   .price .header {
     background-color: #111;
     color: white;
     font-size: 25px;
   }
   
-  /* List items */
+ 
   .price li {
     border-bottom: 1px solid #eee;
     padding: 20px;
@@ -96,7 +96,7 @@
     font-size: 20px;
   }
   
-  /* The "Sign Up" button */
+
   .button {
     background-color: #04AA6D;
     border: none;
@@ -107,8 +107,7 @@
     font-size: 18px;
   }
   
-  /* Change the width of the three columns to 100%
-  (to stack horizontally on small screens) */
+  
   @media only screen and (max-width: 600px) {
     .columns {
       width: 100%;
@@ -121,7 +120,7 @@
     height: 300px; /* Should be removed. Only for demonstration */
   }
   
-  /* Clear floats after the columns */
+
   .row:after {
     content: "";
     display: table;
@@ -131,4 +130,15 @@
     .column {
       width: 100%;
     }
-  }
+    .card-columns {
+      @include media-breakpoint-only(lg) {
+        column-count: 4;
+      }
+      @include media-breakpoint-only(xl) {
+        column-count: 5;
+      }
+    }
+    {
+      .card
+      display: inline-block;
+    }
