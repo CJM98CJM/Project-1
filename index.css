@@ -52,7 +52,10 @@
   * {
     box-sizing: border-box;
   }
-
+  
+  .center-title {
+    text-align: center;
+    }
   .banner-container {
     position: relative;
     text-align: center;
