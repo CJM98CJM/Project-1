@@ -97,7 +97,8 @@ a {
   * {
     box-sizing: border-box;
   }
-  
+  body { min-height: 100vh; display: flex; flex-direction: column; margin: 0; } 
+main { flex-grow: 1; }
   .center-title {
     text-align: center;
     }
@@ -251,8 +252,6 @@ a {
     padding:40px 0;
     height: 2em;
     left: 0;
-    margin-top: 200px;
-    position: fixed;
     background-color:#ffffff;
     color:#4b4c4d;
   }
@@ -303,7 +302,6 @@ a {
   }
   
   .footer-basic .copyright {
-    margin-top:15px;
     text-align:center;
     font-size:13px;
     color:#aaa;
