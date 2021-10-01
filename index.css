@@ -22,49 +22,6 @@ a {
   
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 1.5rem;
-}
-.hamburger {
-  display: none;
-}
-
-.navbar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: #80FFDB;
-}
-.nav-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-item {
-  margin-left: 5rem;
-}
-
-.nav-link{
-  font-size: 1.6rem;
-  font-weight: 400;
-  color: #475569;
-}
-
-.nav-link:hover{
-  color: #B8B3E9;
-}
-
-.nav-logo {
-  font-size: 2.1rem;
-  font-weight: 500;
-  color: #B8B3E9;
 }
 @media only screen and (max-width: 768px) {
   .nav-menu {
@@ -110,21 +67,6 @@ main { flex-grow: 1; }
     text-align: center;
     color: white;
   }
-  #classes {
-    background-color: #64DFDF;
-  }
-
-  #gym {
-    background-color: #56CFE1;
-  }
-
-  #showers {
-    background-color: #48BFE3;
-  }
-
-  #weights {
-    background-color: #72EFDD;
-  }
 
   .banner-centered {
     position: absolute;
@@ -145,7 +87,7 @@ main { flex-grow: 1; }
    * {
     box-sizing: border-box;
   }
-  .columns {
+  .packages {
     float: left;
     width: 33.3%;
     padding: 8px;
@@ -197,7 +139,7 @@ main { flex-grow: 1; }
   
   
   @media only screen and (max-width: 600px) {
-    .columns {
+    .packages {
       width: 100%;
     }
   }
@@ -250,9 +192,8 @@ main { flex-grow: 1; }
       padding: 10px;
     }
     
-    .column {
+    .packages {
       float: left;
-      width: 50%;
       margin-top: 6px;
       padding: 20px;
     }
