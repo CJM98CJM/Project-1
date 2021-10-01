@@ -17,7 +17,9 @@ a {
   text-decoration: none;
 }
 .header{
-  border-bottom: 1px solid #E2E8F0;
+  border-bottom: 1px solid #80FFDB;
+  background-color: #80FFDB;
+  
 }
 
 .navbar {
@@ -30,14 +32,14 @@ a {
   display: none;
 }
 
-.bar {
+.navbar {
   display: block;
   width: 25px;
   height: 3px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #101010;
+  background-color: #80FFDB;
 }
 .nav-menu {
   display: flex;
@@ -56,13 +58,13 @@ a {
 }
 
 .nav-link:hover{
-  color: #482ff7;
+  color: #B8B3E9;
 }
 
 .nav-logo {
   font-size: 2.1rem;
   font-weight: 500;
-  color: #482ff7;
+  color: #B8B3E9;
 }
 @media only screen and (max-width: 768px) {
   .nav-menu {
@@ -70,7 +72,7 @@ a {
       left: -100%;
       top: 5rem;
       flex-direction: column;
-      background-color: #fff;
+      background-color: #80FFDB;
       width: 100%;
       border-radius: 10px;
       text-align: center;
@@ -102,22 +104,43 @@ main { flex-grow: 1; }
   .center-title {
     text-align: center;
     }
+    
   .banner-container {
     position: relative;
     text-align: center;
     color: white;
   }
+  #classes {
+    background-color: #64DFDF;
+  }
+
+  #gym {
+    background-color: #56CFE1;
+  }
+
+  #showers {
+    background-color: #48BFE3;
+  }
+
+  #weights {
+    background-color: #72EFDD;
+  }
+
   .banner-centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-   
+  
+  .center-title {
+    background-color: #C1DCEB ;
+  }
+
   .card-deck {
     text-align: center;
+    background-color: #C1DCEB;
 }
-
 
    * {
     box-sizing: border-box;
@@ -131,7 +154,7 @@ main { flex-grow: 1; }
  
   .price {
     list-style-type: none;
-    border: 1px solid #eee;
+    border: 1px solid #B8B3E9;
     margin: 0;
     padding: 0;
     transition: 0.3s;
@@ -144,7 +167,7 @@ main { flex-grow: 1; }
   
 
   .price .header {
-    background-color: #111;
+    background-color: #B8B3E9;
     color: white;
     font-size: 25px;
   }
@@ -156,7 +179,6 @@ main { flex-grow: 1; }
     text-align: center;
   }
   
-  /* Grey list item */
   .price .grey {
     background-color: #eee;
     font-size: 20px;
@@ -164,7 +186,7 @@ main { flex-grow: 1; }
   
 
   .button {
-    background-color: #04AA6D;
+    background-color: #5E60CE;
     border: none;
     color: white;
     padding: 10px 25px;
@@ -196,7 +218,7 @@ main { flex-grow: 1; }
     .column {
       width: 100%;
     }
-
+  }
     * {
       box-sizing: border-box;
     }
@@ -312,3 +334,4 @@ main { flex-grow: 1; }
     .footer-basic { 
       margin-top: 50px;
     }
+  }
