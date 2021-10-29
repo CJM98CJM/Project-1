@@ -18,6 +18,10 @@ li {
   list-style: none;
 }
 
+p {
+  font-size: 2rem;
+}
+
 a {
   text-decoration: none;
 }
@@ -129,7 +133,7 @@ main { flex-grow: 1; }
   .price .header {
     background-color: #B8B3E9;
     color: white;
-    font-size: 25px;
+    font-size: 3rem;
   }
   
  
@@ -137,6 +141,7 @@ main { flex-grow: 1; }
     border-bottom: 1px solid #eee;
     padding: 20px;
     text-align: center;
+    font-size: 2rem;
   }
   
   .price .grey {
@@ -162,11 +167,11 @@ main { flex-grow: 1; }
     }
   }
   .amenities {
-    padding: 20px;
+    padding: 45px;
     background: white;
     color: black;
     width: 45%;
-    margin: 20px;
+    margin: 10px;
     border-radius: 20px;
     box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
   }
