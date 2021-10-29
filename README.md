@@ -66,9 +66,30 @@ Navbar collapses into a burger icon
 Smooth scrolling implemented to better user experiance
 Call to sign buttons throughout which lead to sign up form- sign up form currently not linked to any data stoage. 
 
-Features Left to Implement
+Feature to implement in the future 
 
-Full break down of services they provide (as it is currently condensed into a pdf on the footer)
-Members forum / login secion
-mail link up for contact form and subscription to news letter
-Would Ideally love to have the site as a multi page application, but with time constraints and issues with content as the company is new with very few resources it was difficult to make the multipage app without meaningful content.
+- data storage for the sign up for mailing form
+- Ability to create an account and log in
+- Further information to create a multipage website for each section, instead of a single scrolling page.
+- Contact section which with have the business contact information, direct Google maps link which can direct to the location, and a box to fill any questions and be sent.
+
+Technologies Used 
+
+- CSS3
+- HTML 5
+- Bootstrap v4.1.3
+- Balsamiq for wireframes 
+- Google chrome developer tools to check changed before implementing and debugging
+- W3schools for checking code 
+
+
+Testing 
+
+-for testing I used various device sizes of chrome dev tools including the responsive setting to allow for quick checks.
+The device sizes I checked on dev tools are as followed; 
+- iPhone X 375x812
+- Galaxy pixel 411x731
+- Galaxy pixel xl 411x823
+- Surface duo 540x720
+- Laptop 1366x767
+- Desktop 1920x1080
