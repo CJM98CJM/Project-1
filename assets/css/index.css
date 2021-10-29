@@ -241,7 +241,7 @@ main { flex-grow: 1; }
     padding:40px 0;
     left: 0;
     background-color:#F8ABD8;
-    color:#4b4c4d;
+    color: black;
   }
   
   .footer-basic ul {
