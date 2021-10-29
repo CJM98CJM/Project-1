@@ -68,6 +68,12 @@ main { flex-grow: 1; }
   position: relative;
 }
 
+#header-text {
+  text-align: center;
+  padding-top: 160px;
+  color: black;
+}
+
 #header-overlay {
   opacity: .9;
   background: linear-gradient(180deg, rgba(87, 104, 97, 0.5) 50%, rgba(112, 113, 114, 0.8) 100%), url('/assets/images/gym-banner.jpeg') no-repeat center;
@@ -76,16 +82,11 @@ main { flex-grow: 1; }
   top: 0;
   left: 0;
   height: 100%;
+  z-index: -1000;
   width: 100%;
 }
 
-#header-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%)
-  color: white;
-}
+
   .center-title {
     text-align: center;
     margin: 15px;
@@ -97,18 +98,6 @@ main { flex-grow: 1; }
     color: white;
   }
     
-  .banner-container {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-
-  .banner-centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
 
   .card-deck {
     text-align: center;
@@ -227,6 +216,7 @@ main { flex-grow: 1; }
     .container {
       border-radius: 5px;
       padding: 10px;
+      text-align: center;
     }
     
     .column {
