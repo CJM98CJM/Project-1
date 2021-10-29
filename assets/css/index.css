@@ -32,8 +32,6 @@ a {
   
 }
 
-
-}
 @media only screen and (max-width: 768px) {
   .nav-menu {
       position: fixed;
@@ -242,6 +240,7 @@ main { flex-grow: 1; }
     left: 0;
     background-color:#C4DACF;
     color: black;
+    text-align: center;
   }
   
   .footer-basic ul {
